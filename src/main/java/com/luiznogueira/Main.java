@@ -3,7 +3,6 @@ package com.luiznogueira;
 import com.luiznogueira.entidades.Aluno;
 import com.luiznogueira.entidades.DataNascimento;
 import com.luiznogueira.entidades.TurmaAno;
-import java.time.LocalDate;
 
 public class Main {
 
