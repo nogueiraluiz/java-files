@@ -4,6 +4,8 @@ import com.luiznogueira.entidades.Aluno;
 import com.luiznogueira.entidades.DataNascimento;
 import com.luiznogueira.entidades.TurmaAno;
 
+import com.luiznogueira.ferramentas.Extrator;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -21,5 +23,7 @@ public class Main {
                         .build())
                 .build();
         System.out.println(aluno);
+        var alunos = Extrator.extraiAlunos(args[0]);
+        alunos.stream().forEach(System.out::println);
     }
 }
