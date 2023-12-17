@@ -11,6 +11,7 @@ public class Aluno {
     private final String matricula;
     private final DataNascimento dataNascimento;
     private final TurmaAno turmaAno;
+    private final Boletim boletim;
 
     @Override
     public String toString() {
